@@ -1,0 +1,251 @@
+/*
+Theme Name: Test1
+Author: Rasmus
+Author URI: http://www.youtube.com/user/LearnWebCode
+Version: 1.0
+*/
+
+h1, h2{
+	margin:0px;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+	background:#5b4a46;
+}
+ol, ul{
+list-style-type: none;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+
+}
+
+.head-title{
+	margin-top:20px;
+	font-size:30px;	
+	font-family:cursive;
+	color:white;
+}
+
+div.container{
+	max-width:1000px;
+	margin:0 auto;
+	box-sizing: border-box;
+	padding:20px;
+	background:#3f3531;
+	margin-top:10px;
+	overflow:hidden;
+}
+
+div.post-content{
+	background:#fafafa;
+	max-width: 600px;
+}
+
+.site-header{
+	background:#383838;
+	
+}
+
+.header-container{
+	max-width:1000px;
+	margin:0 auto;
+	overflow:auto;
+}
+
+.site-nav{
+	position:relative;
+}
+
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li{
+	list-style: none;
+	float: left;
+	
+}
+
+
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+	display: block;
+}
+
+.site-nav ul li a{
+	padding:10px;
+	background: #505050;
+	color:white;
+	text-decoration:none;
+}
+
+.site-nav ul li a:hover{
+	background: #c30000;
+}
+
+article h2 a{
+	 text-decoration: none;
+	 color:grey;
+	 font-size:24px;
+}
+
+article{
+	border-bottom:1px solid #bbbbbb;
+	padding:10px;
+}
+
+.post-image img{
+	width:100%;
+	height:auto;
+}
+
+.hd-search{
+	float:right;
+}
+
+#searchsubmit{
+    background-color: #006ec3;
+    color: #FFF;
+    padding: 4px 14px;
+    border: none;
+    vertical-align: top;
+    font-size:12px;
+    cursor:pointer;
+}
+
+.menu-primary-menu-links-container{
+	float:left;
+}
+
+.screen-reader-text{
+    color:white;
+}
+
+.pagination{
+	padding:20px;
+	font-size:16px;
+	text-align: center;
+}
+
+.site-footer{
+	padding:20px;
+	font-size:16px;
+	text-align: center;
+}
+
+.page-numbers{
+	padding:10px;
+	background:#3e3e3e;
+	text-decoration: none;
+	color:white;
+}
+
+.page-numbers:hover{
+	background:#616161;
+}
+
+.current{
+	background:#cc6000;
+}
+
+
+.gallery{
+	font-size:125%;
+	background-color: #3c3c3c;
+	padding:20px;
+}
+
+.gallery img{
+	border:none!important;
+}
+
+.secondary-column{
+	float:right;
+	background:#fafafa;
+	padding:20px;
+}
+
+.secondary-column h2{
+	padding:10px 10px;
+}
+
+.secondary-column ul{
+	padding:0px;
+	margin:0px;
+	font-weight: bold;
+	/*list-style-type: none;*/	
+}
+
+.secondary-column li{
+	padding:4px;
+}
+
+.secondary-column a{
+	text-decoration: none;
+	color:#FF761C;
+
+}
+
+.contact-us{
+	background-color:#fafafa;
+}
+
+.post-aside{
+	background:#ffeece;
+}
+
+.post-aside img{
+	width:100%;
+	height:auto;
+}
+
+.mini-meta {
+	font-size: 68%;
+	margin: 0;
+	color: #777;
+}
+
+.comments-area{
+	padding:10px;
+}
+
+.comment-respond label{
+	display:none;
+}
+
+.comment-list{
+	padding:0px;
+}
+
+.search img{
+	width:100%;
+	height:auto;
+}
+
+
+.sub-menu{  /* ei tööta hetkel */
+	display: none;
+	position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.sub-menu:hover{   /* ei tööta hetkel */
+    display: block;
+}
+
